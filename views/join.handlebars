@@ -1,0 +1,49 @@
+<link rel="stylesheet" href="/css/style2.css"> 
+<div class="row">
+<div class="login" style="width:100%;background: url(/img/library.png) center top no-repeat; background-size:100%;">
+      <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+        <div class="card card-signin my-5" style="margin-top:100px !important;margin-bottom: 2rem !important;">
+          <div class="card-body" >
+            <h5 class="card-title text-center">Join Us For Free!!</h5>
+            {{#if user}}
+        <div class="alert alert-danger">Username has taken already try new</div> 
+{{/if}}
+{{#if mail}}
+        <div class="alert alert-danger">Email has taken already try new</div> 
+{{/if}} 
+{{#if errors}}
+      {{#each errors}}
+        <div class="alert alert-danger">{{msg}}</div>
+      {{/each}}
+{{/if}}
+            <form method="POST" action="/users/Join" class="form-signin">
+
+              
+                <div class="form-group">
+       <label>First Name</label>
+       <input type="text" class="form-control" placeholder="Enter your First Name here.." name="FirstName">
+   </div>
+             <div class="form-group">
+       <label>Last Name</label>
+       <input type="text" class="form-control" placeholder="Enter your Last Name here.." name="LastName">
+   </div>
+   <div class="form-group">
+       <label>Email</label>
+       <input type="text" class="form-control" placeholder="Email..!!!" name="email">
+   </div>
+   <div class="form-group">
+       <label>Password</label>
+       <input type="password" class="form-control" placeholder="Password.." name="password">
+   </div>
+   <div class="form-group">
+       <label>Confirm Password</label>
+       <input type="password" class="form-control" placeholder="Password.." name="password2">
+   </div>
+   <button type="submit" class="btn btn-default">Submit</button>
+
+          </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

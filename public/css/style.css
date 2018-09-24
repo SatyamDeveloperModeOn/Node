@@ -1,0 +1,103 @@
+h1,h2,h3,h4,h5,h6,a,span,ul,li,span,input{ margin: 0; padding: 0;}
+
+.linkss ul li a{ color: #ffffff !important; font-family: raleway !important; font-size:17px !important; font-weight: 500 !important;}
+.linkss ul li{ padding: 0 2px}
+.linkss ul li a.active{ color: #fea61e !important}
+.centered { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); }
+.centered h1{ font-family: raleway !important; font-size: 32px !important; color:#fff !important; text-transform: uppercase}
+.centered span{  color:#fff !important; font-size: 17px; font-weight: 600;}
+.centered p{ color:#fff !important;text-align: center;font-family: raleway;}
+.ff{background:#fea61e;border:none;color:#333; font-weight: 600; font-family: raleway;}
+.services{padding: 0px 0}
+.services h1{ text-align: center; font-family: raleway; padding:0px; margin: 0px;font-size:41px; font-weight: normal; padding: 35px 0 0px 0; color: #58433a}
+.services h2{ text-align: center; padding:0px; margin: 0px;}
+.service-image{ margin-top: 20px;}
+.service-image img{ width: 540px;height: 277px;}
+.service-text{ margin-top: 20px;margin-left: 20px;}
+.service-text h1{ font-size:26px; text-align: left; color:#58433a;font-weight: 600;padding: 10px 0;}
+.feature{ padding: 25px 0;}
+.feature h1{ text-align: center}
+.feauture-product{padding: 5px 0}
+.feauture-product ul{list-style: none;}
+.feauture-product ul li { float: left; width: 25%; }
+.feauture-product span{ text-align: center; display: block; color: #57433a; font-weight: 600}
+.feauture-product strong{ text-align: center; display: block; font-size: 18px;color: #ff890e; font-weight: 600; padding: 5px 0}
+.feauture-product a{ width: 200px;line-height: 30px; text-decoration: none; text-align: center; margin:0 auto;background-color: #171310; display: block; color: #fff}
+.changeColor{
+    background-color: rgb(0, 3, 5);
+    transition: 0.3s;
+  }
+  .imm{ padding: 40px 0}
+  .imm img{ width: 305px;height: 261px;}
+  .imm h1{ font-size: 26px;}
+  .imm span{ font-size: 18px;}
+  .view {
+    margin: 44px auto; width: 100%;
+}
+.view a{ background-color: #ff890e; margin: 0 auto; color:#fff; width: 268px; line-height: 49px; text-align: center; display: block}
+.newsletter{}
+.newsletter h1{ font-size: 41px; font-family: raleway; color: #fff}
+.newsletter p{color: #fff;font-size: 18px; font-family: raleway; text-align: center;}
+.newsletter a{ background-color: #fea61e; color: #333; text-decoration: none;font-weight: 600; width:202px; line-height: 43px;margin: 20px auto; display: block }
+footer.page-footer.font-small.unique-color-dark {
+    background-color: #1a1c28;
+    padding-top: 5px;
+}
+.fixed-top{background-color: rgba(0, 3, 5, 0.849); }
+section.team-section.text-center {
+    padding-bottom: 45px;
+}
+.col-md-3.col-lg-2.col-xl-2.mx-auto.mb-4 a {
+    color: #fff;
+}
+.feauture-product img {
+    width: 222px;
+    height: 292px;
+}
+.footer-copyright.text-center.py-3 {
+    background: #26293a; text-align: left !important;
+}
+.row{ margin: 0 !important}
+@media only screen and (min-width:320px) and (max-width:480px){
+    nav#mainNav {
+        background: rgb(0,0,0,0.8) !important;
+    }
+    .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 80%;
+        text-align: center;
+    }
+    .service-image img {
+        width: 100%;
+        height: 100%;
+        margin-left: 0 !important;
+    }
+    .feauture-product ul li {
+        float: left;
+        width: 100%;
+        padding-left: 0 !important;
+        margin-left: 0 !important;
+        margin-bottom: 30px;
+    }
+    .login {
+        background-size: cover !important;
+    }
+    .help{background-size: cover !important;}
+    .services h1{padding: 0px 0 0px 0;}
+    }
+
+
+    h3.belowT {
+      font-size: 20px;
+      letter-spacing: 3.5px;
+      color: white;
+      font-weight: 100;
+  }
+
+
+
+
+

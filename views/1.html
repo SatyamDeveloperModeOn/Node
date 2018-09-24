@@ -1,0 +1,50 @@
+<body>
+  <h2 class="page-header">Join Us For Free!!!</h2>
+{{#if errors}}
+     {{#each errors}}
+     <div class="alert alert-danger">{{msg}}</div>
+     {{/each}}
+     {{/if}}
+ <form method="POST" action="/Join">
+   <div class="form-group">
+       <label>Name</label>
+       <input type="text" class="form-control" placeholder="Enter your name here.." name="name">
+   </div>
+   <div class="form-group">
+       <label>Username</label>
+       <input type="text" class="form-control" placeholder="Username.." name="username">
+   </div>
+   <div class="form-group">
+       <label>Email</label>
+       <input type="text" class="form-control" placeholder="Email.." name="email">
+   </div>
+   <div class="form-group">
+       <label>Password</label>
+       <input type="password" class="form-control" placeholder="Password.." name="password">
+   </div>
+   <div class="form-group">
+       <label>Confirm Password</label>
+       <input type="password" class="form-control" placeholder="Password.." name="password2">
+   </div>
+   <button type="submit" class="btn btn-default">Submit</button>
+ </form>
+</body>
+
+
+
+<div style="background: url(img/banner.jpg) left top no-repeat; padding-bottom:650px;">
+  <h2 class="page-header">Account Login</h2>
+  <form method="POST" action="/Sign-In">
+   <div class="form-group" >
+       <label>Username</label>
+       <input type="text" class="form-control" placeholder="Enter your username.....">
+   </div>
+   <div class="form-group">
+  <label>Password</label>
+       <input type="text" class="form-control" placeholder="Password.....">
+   </div>
+  
+  <button type="submit" class="btn btn-default">Submit</button>
+  
+  </form>
+  </div>
